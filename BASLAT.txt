@@ -1,0 +1,11 @@
+CrusaderDefender - Debug
+
+Gereksinim: ASP.NET Core Runtime 10 (SDK gerekli değildir).
+ZIP dosyasını bir klasöre çıkartın ve Start-Game.cmd dosyasını çalıştırın.
+Tarayıcıda http://localhost:5080 adresini açın. Durdurmak için Ctrl+C kullanın.
+Debug ve Release aynı anda 5080 portunu kullanamaz.
+Başka port için: dotnet LabirentTd.Web.dll --urls http://localhost:5081 --contentRoot .
+Oyun geçmişi bu klasörün App_Data/results.json dosyasına kaydedilir.
+Paket kişisel oyun geçmişini içermez. Mevcut kayıtlar kaynak projede kalır.
+Bu paket .NET çalışma zamanını içermez; taşınabilir framework-dependent yayındır.
+Debug hata ayıklama, Release optimize edilmiş çalıştırma içindir; ikisi de PDB içerir.

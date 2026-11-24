@@ -1,0 +1,13 @@
+{
+  "theme": "seljuk",
+  "assets": {
+    "archer": {"status": "ready", "idle": "archer/idle.png", "animation": "archer/animation.png", "columns": 4, "rows": 4},
+    "cannon-team": {"status": "ready", "idle": "cannon-team/idle.png", "animation": "cannon-team/animation-v1.png", "columns": 4, "rows": 4, "states": ["idle", "loading", "aiming", "firing"], "directions": ["front-right", "front-left", "back-left", "back-right"]},
+    "cannon": {"status": "ready", "animation": "cannon/animation-v1.png", "columns": 4, "rows": 4, "states": ["idle","preparing","aiming","firing"], "directions": ["front-right", "front-left", "back-left", "back-right"]},
+    "ice-archer": {"status": "ready", "animation": "ice-archer/animation-v1.png", "columns": 4, "rows": 4, "states": ["idle","preparing","aiming","firing"], "directions": ["front-right", "front-left", "back-left", "back-right"]},
+    "catapult": {"status": "ready", "animation": "catapult/animation-v1.png", "columns": 4, "rows": 4, "states": ["idle","preparing","aiming","firing"], "directions": ["front-right", "front-left", "back-left", "back-right"]},
+    "volley-archer": {"status": "ready", "animation": "volley-archer/animation-v1.png", "columns": 4, "rows": 4, "states": ["idle","preparing","aiming","firing"], "directions": ["front-right", "front-left", "back-left", "back-right"]},
+    "drummer": {"status": "ready", "animation": "drummer/animation-v1.png", "columns": 4, "rows": 4, "states": ["idle","sticks-raised","right-strike","left-strike"], "directions": ["front-right", "front-left", "back-left", "back-right"]},
+    "archer-team": {"status": "ready", "animation": "archer-team/animation-v1.png", "columns": 4, "rows": 4, "states": ["idle","preparing","aiming","firing"], "directions": ["front-right", "front-left", "back-left", "back-right"]}
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "theme": "seljuk",
+  "assets": {
+    "floor": {"status": "ready", "texture": "grass-tile-v1.png", "renderer": "drawFloor", "textureSpanTiles": 4},
+    "trees": {"status": "ready", "atlas": "trees-atlas-v1.png", "columns": 2, "rows": 2, "outsideDistanceTiles": [2, 5], "playableTerrain": true, "height": 3, "immutable": true},
+    "mountains": {"status": "ready", "atlas": "mountains-atlas-v1.png", "columns": 2, "rows": 2, "outsideDistanceTiles": [7, 10], "playableTerrain": true, "footprint": [4, 2], "height": 4, "immutable": true},
+    "water": {"status": "ready", "file": "water-tile-v1.png", "buildable": false},
+    "bridge": {"status": "ready", "file": "bridge-v1.png", "footprint": [3, 1], "passable": true, "buildable": false},
+    "wall": {"status": "canvas", "renderer": "drawIsoWall", "defaultHeight": 2, "defaultRoof": true, "playerHeight": 1},
+    "raised-wall": {"status": "canvas", "renderer": "drawIsoWall", "futureFile": "raised-wall.png"},
+    "gate": {"status": "ready", "renderer": "drawGate", "file": "castle-gate-v2.png", "transparent": true},
+    "platform": {"status": "canvas", "renderer": "drawPlinth", "futureFile": "platform.png"}
+  }
+}

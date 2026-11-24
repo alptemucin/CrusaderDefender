@@ -1,0 +1,17 @@
+**/bin/
+**/obj/
+.backup/
+.board-check/
+.packages/
+.rhythmsix-update/
+.tools/
+App_Data/
+build/
+DesktopApp/
+DesktopApp.zip
+*.log
+/*.dll
+/*.pdb
+/*.deps.json
+/*.runtimeconfig.json
+/*.staticwebassets.endpoints.json

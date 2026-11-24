@@ -1,0 +1,10 @@
+{
+  "theme": "seljuk",
+  "assets": {
+    "infantry": {"status": "ready", "renderer": "drawCrusader", "file": "infantry/walk-v1.png", "columns": 4, "rows": 4},
+    "knight": {"status": "ready", "renderer": "drawCrusader", "file": "knight/walk-v1.png", "columns": 4, "rows": 4},
+    "standard-bearer": {"status": "ready", "renderer": "drawCrusader", "file": "standard-bearer/walk-v1.png", "columns": 4, "rows": 4},
+    "scout": {"status": "ready", "renderer": "drawCrusader", "file": "scout/walk-v1.png", "columns": 4, "rows": 4},
+    "siege-wagon": {"status": "ready", "renderer": "drawCrusader", "file": "siege-wagon/walk-v1.png", "columns": 4, "rows": 4}
+  }
+}
